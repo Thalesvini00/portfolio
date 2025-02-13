@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Interativo</title>
+    <link rel="stylesheet" href="css/quiz.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>Quiz Interativo</h1>
+        <div id="question-container">
+            <!-- As perguntas serão inseridas aqui pelo JavaScript -->
+        </div>
+        <button id="next-button" onclick="nextQuestion()">Próxima Pergunta</button>
+        <div id="result-container" class="result-container"></div>
+    </div>
+    <div class="back">
+        <a href="projetos.html">
+            <button class="button" style="background-color: white;">
+                <img src="images/back.png" width="20px" alt="">
+            </button>
+        </a>
+    </div>
+    <script src="js/quiz.js"></script>
+</body>
+</html>

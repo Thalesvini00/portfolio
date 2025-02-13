@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Unidades</title>
+    <link rel="stylesheet" href="css/conversor.css">
+</head>
+<body>
+    <div class="conversor-container">
+        <h1>Conversor de Unidades</h1>
+        
+        <div class="conversao">
+            <h2>De Celsius para Fahrenheit</h2>
+            <input type="number" id="celsius" placeholder="Celsius">
+            <button onclick="conversaoCelsiusFahrenheit()">Converter</button>
+            <div id="resultadoCelsiusFahrenheit"></div>
+        </div>
+
+        <div class="conversao">
+            <h2>De Metros para Centímetros</h2>
+            <input type="number" id="metros" placeholder="Metros">
+            <button onclick="conversaoMetrosCentimetros()">Converter</button>
+            <div id="resultadoMetrosCentimetros"></div>
+        </div>
+
+        <div class="conversao">
+            <h2>De Quilos para Libras</h2>
+            <input type="number" id="quilos" placeholder="Quilos">
+            <button onclick="conversaoQuilosLibras()">Converter</button>
+            <div id="resultadoQuilosLibras"></div>
+        </div>
+
+    </div>
+    <div class="back">
+        <a href="projetos.html">
+            <button class="button" style="background-color: white;">
+                <img src="images/back.png" width="20px" alt="">
+            </button>
+        </a>
+    </div>
+    <script src="js/conversor.js"></script>
+</body>
+</html>

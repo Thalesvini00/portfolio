@@ -1,0 +1,86 @@
+html{
+    width: 100%;
+    height: 100%;
+    background-image: url("wall geral.jpg");
+    background-size: cover;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(12, 0, 65);
+}
+html {
+    height: 100%;
+    width: 100%;
+}
+.body{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+}
+
+img{
+    width: 25px;
+}
+
+.jogo{
+    place-items: center;
+    display: grid;
+    background-color: rgb(12, 0, 180);
+    padding: 60px 30px;
+    margin-left: 22px;
+    margin-right: 22px;
+    border-radius: 15px;
+    box-shadow: 8px 8px 12px black;
+    margin-top: 90px;
+}
+#pedido{
+    font-family: aurial;
+    font-size: 20px;
+    color: white;
+}
+#verificar{
+    width: 140px;
+    height: 35px;
+    background-color: black;
+}
+#dicas{
+    width: 90px;
+    height: 35px;
+    background-color: black;
+}
+.buttons{
+    display: flex;
+    gap: 1rem;
+}
+input{
+    background-color: darkslateblue;
+    border: solid 1px black;
+    border-bottom: 1px solid black;
+    color: white;
+    border-radius: 4px;
+    box-shadow: 2px 1px 6px black;
+    transition: 0.3s;
+}
+input:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+    box-shadow: 5px 4px 12px black;
+}
+button{
+    color: white;
+    border: none;
+    border-radius: 10px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+button:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+    box-shadow: 4px 2px 12px black;
+}
+.button{
+    margin-top: 1px;
+    border-radius: 50%;
+}
